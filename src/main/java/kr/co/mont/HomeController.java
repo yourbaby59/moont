@@ -28,6 +28,7 @@ public class HomeController {
 	public String home(Locale locale, Model model) {
 		
 		return "redirect:/main/index";
+		
 	}
 	
 	@RequestMapping("main/index")
